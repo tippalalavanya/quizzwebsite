@@ -1,0 +1,428 @@
+{
+  "quizzes": [
+    {
+      "title": "Java Programming",
+      "icon": "/icon-java.svg",
+      "questions": [
+        {
+          "question": "Which keyword is used to define a class in Java?",
+          "options": ["class", "define", "new", "create"],
+          "answer": "class"
+        },
+        {
+          "question": "What is the size of an int variable in Java?",
+          "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+          "answer": "32 bits"
+        },
+        {
+          "question": "Which method is the entry point for a Java application?",
+          "options": ["main()", "start()", "begin()", "init()"],
+          "answer": "main()"
+        },
+        {
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["String", "Text", "char", "MyString"],
+          "answer": "String"
+        },
+        {
+          "question": "How do you create a single-line comment in Java?",
+          "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", "<!-- This is a comment -->"],
+          "answer": "// This is a comment"
+        },
+        {
+          "question": "Which operator is used to add two values in Java?",
+          "options": ["+", "-", "*", "/"],
+          "answer": "+"
+        },
+        {
+          "question": "Which keyword is used to inherit a class in Java?",
+          "options": ["implements", "extends", "inherits", "super"],
+          "answer": "extends"
+        },
+        {
+          "question": "Which of the following is not a primitive data type in Java?",
+          "options": ["int", "boolean", "char", "String"],
+          "answer": "String"
+        },
+        {
+          "question": "How do you create a new object in Java?",
+          "options": ["MyClass obj = new MyClass();", "MyClass obj = MyClass();", "MyClass obj = create MyClass();", "MyClass obj = new MyClass;"],
+          "answer": "MyClass obj = new MyClass();"
+        },
+        {
+          "question": "What is the default value of a boolean variable in Java?",
+          "options": ["true", "false", "0", "1"],
+          "answer": "false"
+        },
+        {
+          "question": "Which keyword is used to declare a constant variable in Java?",
+          "options": ["const", "final", "static", "immutable"],
+          "answer": "final"
+        },
+        {
+          "question": "Which method is used to compare two strings in Java?",
+          "options": ["equals()", "compare()", "compareTo()", "=="],
+          "answer": "equals()"
+        },
+        {
+          "question": "How do you declare an array in Java?",
+          "options": ["int[] arr = new int[5];", "int arr = new int[5];", "int arr[] = int[5];", "int arr[5] = new int[];"],
+          "answer": "int[] arr = new int[5];"
+        },
+        {
+          "question": "Which exception is thrown when an array is accessed with an illegal index?",
+          "options": ["ArrayIndexOutOfBoundsException", "NullPointerException", "IndexOutOfRangeException", "IllegalArrayIndexException"],
+          "answer": "ArrayIndexOutOfBoundsException"
+        },
+        {
+          "question": "Which method is used to start a thread in Java?",
+          "options": ["run()", "start()", "init()", "begin()"],
+          "answer": "start()"
+        },
+        {
+          "question": "How do you handle exceptions in Java?",
+          "options": ["try-catch", "try-except", "handle-exception", "catch-try"],
+          "answer": "try-catch"
+        },
+        {
+          "question": "Which class is the parent class of all classes in Java?",
+          "options": ["Object", "Class", "Parent", "Super"],
+          "answer": "Object"
+        },
+        {
+          "question": "What is the return type of the main method in Java?",
+          "options": ["void", "int", "String", "char"],
+          "answer": "void"
+        },
+        {
+          "question": "How do you import a package in Java?",
+          "options": ["import package.name;", "include package.name;", "using package.name;", "package package.name;"],
+          "answer": "import package.name;"
+        },
+        {
+          "question": "Which keyword is used to define an interface in Java?",
+          "options": ["interface", "abstract", "implements", "extends"],
+          "answer": "interface"
+        }
+      ]
+    },
+    {
+      "title": "C Programming",
+      "icon": "/icon-c.svg",
+      "questions": [
+        {
+          "question": "Which keyword is used to define a variable in C?",
+          "options": ["int", "define", "new", "create"],
+          "answer": "int"
+        },
+        {
+          "question": "What is the size of a char variable in C?",
+          "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+          "answer": "8 bits"
+        },
+        {
+          "question": "Which function is the entry point for a C application?",
+          "options": ["main()", "start()", "begin()", "init()"],
+          "answer": "main()"
+        },
+        {
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["char[]", "Text", "char", "String"],
+          "answer": "char[]"
+        },
+        {
+          "question": "How do you create a single-line comment in C?",
+          "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", "<!-- This is a comment -->"],
+          "answer": "// This is a comment"
+        },
+        {
+          "question": "Which operator is used to add two values in C?",
+          "options": ["+", "-", "*", "/"],
+          "answer": "+"
+        },
+        {
+          "question": "Which keyword is used to define a constant in C?",
+          "options": ["const", "final", "static", "immutable"],
+          "answer": "const"
+        },
+        {
+          "question": "Which of the following is not a primitive data type in C?",
+          "options": ["int", "float", "char", "String"],
+          "answer": "String"
+        },
+        {
+          "question": "How do you create a new pointer in C?",
+          "options": ["int *ptr;", "int ptr;", "int *ptr = malloc();", "int ptr = new int;"],
+          "answer": "int *ptr;"
+        },
+        {
+          "question": "What is the default value of a global int variable in C?",
+          "options": ["0", "1", "-1", "undefined"],
+          "answer": "0"
+        },
+        {
+          "question": "Which library function is used to find the length of a string in C?",
+          "options": ["strlen()", "length()", "size()", "strlength()"],
+          "answer": "strlen()"
+        },
+        {
+          "question": "Which function is used to compare two strings in C?",
+          "options": ["strcmp()", "compare()", "equals()", "compareTo()"],
+          "answer": "strcmp()"
+        },
+        {
+          "question": "How do you declare an array in C?",
+          "options": ["int arr[5];", "int[] arr = new int[5];", "int arr = new int[5];", "int arr[5] = new int[];"],
+          "answer": "int arr[5];"
+        },
+        {
+          "question": "Which function is used to allocate memory dynamically in C?",
+          "options": ["malloc()", "alloc()", "new()", "memalloc()"],
+          "answer": "malloc()"
+        },
+        {
+          "question": "Which header file is required for file handling in C?",
+          "options": ["stdio.h", "stdlib.h", "string.h", "file.h"],
+          "answer": "stdio.h"
+        },
+        {
+          "question": "How do you handle errors in C?",
+          "options": ["return -1;", "try-catch", "throw-catch", "catch-try"],
+          "answer": "return -1;"
+        },
+        {
+          "question": "Which function is used to open a file in C?",
+          "options": ["fopen()", "open()", "fileopen()", "file()"],
+          "answer": "fopen()"
+        },
+        {
+          "question": "Which operator is used to access the value at the address stored in a pointer in C?",
+          "options": ["*", "&", "->", "."],
+          "answer": "*"
+        },
+        {
+          "question": "Which keyword is used to define a structure in C?",
+          "options": ["struct", "class", "define", "new"],
+          "answer": "struct"
+        },
+        {
+          "question": "Which function is used to copy a string in C?",
+          "options": ["strcpy()", "copy()", "strcopy()", "strncpy()"],
+          "answer": "strcpy()"
+        }
+      ]
+    },
+    {
+      "title": "Python Programming",
+      "icon": "/icon-python.svg",
+      "questions": [
+        {
+          "question": "Which keyword is used to define a function in Python?",
+          "options": ["def", "function", "func", "define"],
+          "answer": "def"
+        },
+        {
+          "question": "What is the output of print(2 ** 3) in Python?",
+          "options": ["8", "6", "9", "None of the above"],
+          "answer": "8"
+        },
+        {
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["str", "Text", "char", "String"],
+          "answer": "str"
+        },
+        {
+          "question": "How do you create a single-line comment in Python?",
+          "options": ["# This is a comment", "/* This is a comment */", "// This is a comment", "<!-- This is a comment -->"],
+          "answer": "# This is a comment"
+        },
+        {
+          "question": "Which operator is used to add two values in Python?",
+          "options": ["+", "-", "*", "/"],
+          "answer": "+"
+        },
+        {
+          "question": "Which keyword is used to inherit a class in Python?",
+          "options": ["inherits", "extends", "super", "class"],
+          "answer": "class"
+        },
+        {
+          "question": "Which of the following is not a data type in Python?",
+          "options": ["int", "boolean", "list", "tuple"],
+          "answer": "boolean"
+        },
+        {
+          "question": "How do you create a new list in Python?",
+          "options": ["mylist = []", "mylist = {}", "mylist = ()", "mylist = new list()"],
+          "answer": "mylist = []"
+        },
+        {
+          "question": "What is the default value of a variable in Python?",
+          "options": ["None", "0", "False", "undefined"],
+          "answer": "None"
+        },
+        {
+          "question": "Which keyword is used to declare a global variable in Python?",
+          "options": ["global", "final", "static", "immutable"],
+          "answer": "global"
+        },
+        {
+          "question": "Which method is used to find the length of a string in Python?",
+          "options": ["len()", "length()", "size()", "strlength()"],
+          "answer": "len()"
+        },
+        {
+          "question": "How do you declare an array in Python?",
+          "options": ["myarray = [1, 2, 3]", "myarray = (1, 2, 3)", "myarray = {1, 2, 3}", "myarray = new array(1, 2, 3)"],
+          "answer": "myarray = [1, 2, 3]"
+        },
+        {
+          "question": "Which exception is raised when a variable is not found in Python?",
+          "options": ["NameError", "ValueError", "TypeError", "IndexError"],
+          "answer": "NameError"
+        },
+        {
+          "question": "Which method is used to start a thread in Python?",
+          "options": ["run()", "start()", "init()", "begin()"],
+          "answer": "start()"
+        },
+        {
+          "question": "How do you handle exceptions in Python?",
+          "options": ["try-except", "try-catch", "handle-exception", "catch-try"],
+          "answer": "try-except"
+        },
+        {
+          "question": "Which function is used to open a file in Python?",
+          "options": ["open()", "file()", "fopen()", "fileopen()"],
+          "answer": "open()"
+        },
+        {
+          "question": "Which operator is used to check if a value is in a list in Python?",
+          "options": ["in", "exists", "is", "has"],
+          "answer": "in"
+        },
+        {
+          "question": "How do you create a dictionary in Python?",
+          "options": ["mydict = {}", "mydict = []", "mydict = ()", "mydict = new dict()"],
+          "answer": "mydict = {}"
+        },
+        {
+          "question": "Which function is used to get the type of a variable in Python?",
+          "options": ["type()", "typeof()", "gettype()", "var_type()"],
+          "answer": "type()"
+        },
+        {
+          "question": "Which keyword is used to define a class in Python?",
+          "options": ["class", "def", "type", "struct"],
+          "answer": "class"
+        }
+      ]
+    },
+    {
+      "title": "AI & Machine Learning",
+      "icon": "/icon-ai.svg",
+      "questions": [
+        {
+          "question": "What does AI stand for?",
+          "options": ["Artificial Intelligence", "Automatic Intelligence", "Automated Interface", "Algorithmic Interface"],
+          "answer": "Artificial Intelligence"
+        },
+        {
+          "question": "What is the process of training a machine learning model called?",
+          "options": ["Training", "Programming", "Loading", "Initializing"],
+          "answer": "Training"
+        },
+        {
+          "question": "Which of the following is a type of machine learning?",
+          "options": ["Supervised", "Monitored", "Observed", "Guided"],
+          "answer": "Supervised"
+        },
+        {
+          "question": "What is a neural network?",
+          "options": ["A network of nodes inspired by the human brain", "A type of computer network", "A network of neurons in the brain", "A network of linked computers"],
+          "answer": "A network of nodes inspired by the human brain"
+        },
+        {
+          "question": "Which library is commonly used for machine learning in Python?",
+          "options": ["scikit-learn", "numpy", "pandas", "matplotlib"],
+          "answer": "scikit-learn"
+        },
+        {
+          "question": "What is the purpose of a loss function in machine learning?",
+          "options": ["To measure the error of the model", "To save the model", "To load the data", "To initialize the model"],
+          "answer": "To measure the error of the model"
+        },
+        {
+          "question": "Which of the following is a popular deep learning framework?",
+          "options": ["TensorFlow", "React", "Django", "Spring"],
+          "answer": "TensorFlow"
+        },
+        {
+          "question": "What is overfitting in machine learning?",
+          "options": ["When a model performs well on training data but poorly on test data", "When a model performs well on test data but poorly on training data", "When a model performs well on both training and test data", "When a model performs poorly on both training and test data"],
+          "answer": "When a model performs well on training data but poorly on test data"
+        },
+        {
+          "question": "Which of the following is a technique to prevent overfitting?",
+          "options": ["Regularization", "Normalization", "Standardization", "Optimization"],
+          "answer": "Regularization"
+        },
+        {
+          "question": "What is the difference between classification and regression?",
+          "options": ["Classification predicts categories, regression predicts continuous values", "Classification predicts continuous values, regression predicts categories", "Classification is supervised, regression is unsupervised", "Classification is unsupervised, regression is supervised"],
+          "answer": "Classification predicts categories, regression predicts continuous values"
+        },
+        {
+          "question": "What does CNN stand for in the context of deep learning?",
+          "options": ["Convolutional Neural Network", "Connected Neural Network", "Central Neural Network", "Computational Neural Network"],
+          "answer": "Convolutional Neural Network"
+        },
+        {
+          "question": "What is the main purpose of an activation function in a neural network?",
+          "options": ["To introduce non-linearity", "To initialize weights", "To normalize data", "To prevent overfitting"],
+          "answer": "To introduce non-linearity"
+        },
+        {
+          "question": "Which of the following is an example of unsupervised learning?",
+          "options": ["Clustering", "Classification", "Regression", "Prediction"],
+          "answer": "Clustering"
+        },
+        {
+          "question": "What is the purpose of a validation set in machine learning?",
+          "options": ["To tune hyperparameters", "To train the model", "To test the model", "To preprocess the data"],
+          "answer": "To tune hyperparameters"
+        },
+        {
+          "question": "Which algorithm is used for classification problems?",
+          "options": ["Decision Trees", "Linear Regression", "K-Means", "PCA"],
+          "answer": "Decision Trees"
+        },
+        {
+          "question": "What is reinforcement learning?",
+          "options": ["A type of learning where an agent learns by interacting with its environment", "A type of learning where the model is trained with labeled data", "A type of learning where the model is trained with unlabeled data", "A type of learning where the model is reinforced with additional data"],
+          "answer": "A type of learning where an agent learns by interacting with its environment"
+        },
+        {
+          "question": "Which of the following is a commonly used optimization algorithm in machine learning?",
+          "options": ["Gradient Descent", "Backpropagation", "Stochastic Gradient Descent", "Mini-batch Gradient Descent"],
+          "answer": "Stochastic Gradient Descent"
+        },
+        {
+          "question": "What is a hyperparameter in machine learning?",
+          "options": ["A parameter whose value is set before the learning process begins", "A parameter that is learned from the data", "A parameter that is used to initialize the model", "A parameter that is used to preprocess the data"],
+          "answer": "A parameter whose value is set before the learning process begins"
+        },
+        {
+          "question": "Which technique is used to reduce the dimensionality of data?",
+          "options": ["PCA", "LDA", "KNN", "SVM"],
+          "answer": "PCA"
+        },
+        {
+          "question": "What is the purpose of a learning rate in machine learning?",
+          "options": ["To control the step size during the optimization process", "To determine the number of iterations", "To initialize the weights", "To preprocess the data"],
+          "answer": "To control the step size during the optimization process"
+        }
+      ]
+    }
+  ]
+}
