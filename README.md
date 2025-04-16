@@ -1,10 +1,10 @@
-##Student Quiz Portal – Full Stack Web Application
-#📋 Description
+Student Quiz Portal – Full Stack Web Application
+📋 Description
 A full-stack web application that allows students to log in using their credentials, take quizzes, and view their scores. The platform is designed to support multiple quizzes, maintain student sessions securely, and provide real-time feedback.
 
-#🔐 Student login & authentication
+🔐 Student login & authentication
 
-#📚 Quiz dashboard with multiple quizzes
+📚 Quiz dashboard with multiple quizzes
 
 ⏱️ Timer-based quizzes
 
